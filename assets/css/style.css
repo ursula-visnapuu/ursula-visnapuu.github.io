@@ -230,7 +230,7 @@ h6 {
 
 .navbar .dropdown ul a {
     padding: 10px 20px;
-    text-transform: none;
+    text-transotrm: none;
     color: #666666;
 }
 
@@ -1089,7 +1089,6 @@ section {
     font-size: 14px;
     text-transform: uppercase;
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio Details
@@ -2059,6 +2058,30 @@ section {
     margin-bottom: 0;
     font-family: "Montserrat", sans-serif;
     color: #eee;
+}
+
+#readMoreBtn {
+    background-color: #899933;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 1px;
+    color: #fff;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 4px 11px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+#readMoreBtn:hover {
+    background-color: #899933;
 }
 
 #footer .footer-top .social-links a {
