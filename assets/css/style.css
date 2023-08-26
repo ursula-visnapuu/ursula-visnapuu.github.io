@@ -687,6 +687,12 @@ section {
     padding: 60px 0 40px 0;
     position: relative;
 }
+#about-1 {
+    background: url("../img/liiviga-hiiumaal.jpg") center top no-repeat fixed;
+    background-size: cover;
+    padding: 60px 0 40px 0;
+    position: relative;
+}
 
 #about::before {
     content: "";
