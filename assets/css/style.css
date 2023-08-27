@@ -158,6 +158,11 @@ h6 {
     }
 }
 
+/* after header content always below header */
+#main {
+    padding: 20px 0;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -538,6 +543,10 @@ section {
 
 /* Sections Header
 --------------------------------*/
+.section-header {
+    margin-top: 30px;
+}
+
 .section-header h3 {
     font-size: 32px;
     color: #111;
@@ -1066,17 +1075,14 @@ section {
 #portfolio .portfolio-item .portfolio-info {
     background: #fff;
     text-align: center;
-    padding: 30px;
     height: 90px;
     border-radius: 0 0 3px 3px;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 {
     font-size: 18px;
-    line-height: 1px;
     font-weight: 700;
-    margin-bottom: 18px;
-    padding-bottom: 0;
+    padding: 30px 0;
 }
 
 #portfolio .portfolio-item .portfolio-info h4 a {
