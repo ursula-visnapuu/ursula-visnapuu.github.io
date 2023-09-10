@@ -12,7 +12,7 @@
 body {
     background: #fff;
     color: #666666;
-    font-family: "Open Sans", sans-serif;
+    font-family: "Teko-Light", "Open Sans";
 }
 
 a {
@@ -40,7 +40,7 @@ h3,
 h4,
 h5,
 h6 {
-    font-family: "Montserrat", sans-serif;
+    font-family: "Teko-Light", "Open Sans";
     font-weight: 400;
     margin: 0 0 20px 0;
     padding: 0;
@@ -137,7 +137,7 @@ h6 {
     font-size: 34px;
     margin: 0;
     padding: 0;
-    font-family: "Montserrat", sans-serif;
+    font-family: "nasalization";
     font-weight: 700;
     letter-spacing: 3px;
     padding-left: 10px;
@@ -191,12 +191,12 @@ h6 {
     align-items: center;
     justify-content: space-between;
     padding: 10px 0 10px 30px;
-    font-family: "Montserrat", sans-serif;
-    font-size: 13px;
+    font-family: "nasalization", sans-serif;
+    font-size: 21px;
     font-weight: 600;
     color: #fff;
     white-space: nowrap;
-    text-transform: uppercase;
+    text-transform: capitalize first letter only;
     transition: 0.3s;
 }
 
@@ -235,7 +235,7 @@ h6 {
 
 .navbar .dropdown ul a {
     padding: 10px 20px;
-    text-transotrm: none;
+    text-transform: none;
     color: #666666;
 }
 
