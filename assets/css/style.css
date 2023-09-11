@@ -684,14 +684,15 @@ section {
 }
 
 #featured-services p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #fff;
     margin-bottom: 0;
 }
 
 /* Stiil "Loe rohkem" nupule */
-.readMoreBtn, .readLessBtn {
+.readMoreBtn,
+.readLessBtn {
     font-family: "Lato", sans-serif;
     font-weight: 500;
     font-size: 16px;
@@ -709,6 +710,45 @@ section {
     display: none; /* Alguses peidetud */
 }
 
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn2,
+.readLessBtn2 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #899933;
+}
+
+.readLessBtn2 {
+    display: none; /* Alguses peidetud */
+}
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn3,
+.readLessBtn3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #899933;
+}
+
+.readLessBtn3 {
+    display: none; /* Alguses peidetud */
+}
 
 /* About Us Section
 --------------------------------*/
@@ -805,7 +845,7 @@ section {
 }
 
 #about .about-col p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     color: #333;
     margin-bottom: 0;
