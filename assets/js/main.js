@@ -325,3 +325,44 @@
   new PureCounter();
 
 })()
+
+// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel
+function showMore() {
+    var description = document.querySelector(".description");
+    var readMoreBtn = document.querySelector(".readMoreBtn");
+    var readLessBtn = document.querySelector(".readLessBtn");
+    var fullText = document.getElementById("fullText");
+
+    // Näita täielikku teksti
+    fullText.style.display = "block";
+
+    // Peida "Loe rohkem" nupp
+    readMoreBtn.style.display = "none";
+
+    // Näita "Loe vähem" nuppu
+    readLessBtn.style.display = "inline-block";
+}
+
+// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel
+function showLess() {
+    var description = document.querySelector(".description");
+    var readMoreBtn = document.querySelector(".readMoreBtn");
+    var readLessBtn = document.querySelector(".readLessBtn");
+    var fullText = document.getElementById("fullText");
+
+    // Peida täielik tekst
+    fullText.style.display = "none";
+
+    // Näita "Loe rohkem" nuppu
+    readMoreBtn.style.display = "inline-block";
+
+    // Peida "Loe vähem" nupp
+    readLessBtn.style.display = "none";
+}
+
+// Lisa sündmuskäsitlejad nuppudele
+document.querySelector(".readMoreBtn").addEventListener("click", showMore);
+document.querySelector(".readLessBtn").addEventListener("click", showLess);
+
+// Esialgne seadistus: Peida "Loe vähem" nupp
+document.querySelector(".readLessBtn").style.display = "none";
