@@ -974,6 +974,10 @@ section {
     transition: 0.9s;
 }
 
+.progress-bar.bg-success {
+    background-color: #5f9ea0; /* Muutke "punane" soovitud värvitooniks */
+}
+
 /* Facts Section
 --------------------------------*/
 #facts {
@@ -1244,7 +1248,7 @@ section {
 /* Clients Section
 --------------------------------*/
 #clients {
-    padding: 60px 0;
+    padding: -1px 0;
 }
 
 #clients img {
