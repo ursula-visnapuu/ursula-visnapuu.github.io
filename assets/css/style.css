@@ -58,7 +58,19 @@ h6 {
 }
 
 .bg-success {
-    background-color: #97d4ae !important;
+    background-color: #00c0c1 !important;
+}
+
+.bg-info {
+    background-color: #ff8484 !important;
+}
+
+.bg-warning {
+    background-color: #efd798 !important;
+}
+
+.bg-danger {
+    background-color: #ebbfd6 !important;
 }
 
 /*--------------------------------------------------------------
@@ -598,7 +610,7 @@ section {
 }
 
 .section-header p {
-    text-align: center;
+    text-align: left;
     padding-bottom: 30px;
     color: #333;
     font-size: 18px;
@@ -1059,8 +1071,8 @@ section {
     color: #fff;
 }
 
-#text-center {
-    text-align: left;
+.text-center {
+    text-align: left !important;
 }
 
 #call-to-action .cta-btn {
@@ -1425,7 +1437,7 @@ section {
 }
 
 #testimonials .section-header {
-    margin-top: 4px;
+    margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -1806,7 +1818,7 @@ section {
     color: #333333;
     padding: 6px 30px 8px 30px;
     transition: 0.3s;
-    font-size: 14px;
+    font-size: 16px;
     border-radius: 50px;
     border: 2px solid #899933;
 }
@@ -2280,7 +2292,7 @@ section {
 }
 
 #footer .footer-top .footer-info p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 24px;
     margin-bottom: 0;
     font-family: "Lato", sans-serif;
