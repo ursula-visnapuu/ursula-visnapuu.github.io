@@ -46,6 +46,21 @@ h6 {
     padding: 0;
 }
 
+/*bg - background */
+.bg-grey {
+    background: #e3e3e3;
+}
+.bg-grey-light {
+    background: #f4f4f4;
+}
+.bg-white {
+    background: #fff;
+}
+
+.bg-success {
+    background-color: #97d4ae !important;
+}
+
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -695,13 +710,11 @@ section {
 }
 
 .why-us .accordion-list a {
-    display: block;
     position: relative;
     font-family: "Poppins", sans-serif;
     font-size: 16px;
     line-height: 24px;
     font-weight: 500;
-    padding-right: 30px;
     outline: none;
     cursor: pointer;
 }
