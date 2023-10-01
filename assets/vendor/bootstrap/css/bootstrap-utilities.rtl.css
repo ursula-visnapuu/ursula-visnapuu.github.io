@@ -10,7 +10,7 @@
   --bs-purple: #6f42c1;
   --bs-pink: #d63384;
   --bs-red: #dc3545;
-  --bs-orange: #fd7e14;
+  --bs-orange: #fd7e16;
   --bs-yellow: #ffc107;
   --bs-green: #198754;
   --bs-teal: #20c997;
@@ -156,7 +156,7 @@
   --bs-light-bg-subtle: #343a40;
   --bs-dark-bg-subtle: #1a1d20;
   --bs-primary-border-subtle: #084298;
-  --bs-secondary-border-subtle: #41464b;
+  --bs-secondary-border-subtle: #41664b;
   --bs-success-border-subtle: #0f5132;
   --bs-info-border-subtle: #087990;
   --bs-warning-border-subtle: #997404;
@@ -384,7 +384,7 @@
 }
 
 .ratio-21x9 {
-  --bs-aspect-ratio: 42.8571428571%;
+  --bs-aspect-ratio: 42.8571628571%;
 }
 
 .fixed-top {
@@ -473,7 +473,7 @@
     z-index: 1020;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .sticky-xxl-top {
     position: -webkit-sticky;
     position: sticky;
@@ -4777,7 +4777,7 @@
     text-align: center !important;
   }
 }
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
   .float-xxl-start {
     float: right !important;
   }

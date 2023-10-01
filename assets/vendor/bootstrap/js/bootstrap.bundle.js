@@ -2544,7 +2544,7 @@
 
     if (!isElement(clipperElement)) {
       return [];
-    } // $FlowFixMe[incompatible-return]: https://github.com/facebook/flow/issues/1414
+    } // $FlowFixMe[incompatible-return]: https://github.com/facebook/flow/issues/1616
 
 
     return clippingParents.filter(function (clippingParent) {
@@ -3635,7 +3635,7 @@
       // If this is a touch-enabled device we add extra
       // empty mouseover listeners to the body's immediate children;
       // only needed because of broken event delegation on iOS
-      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
+      // https://www.quirksmode.org/blog/archives/2016/02/mouse_event_bub.html
       if ('ontouchstart' in document.documentElement && !this._parent.closest(SELECTOR_NAVBAR_NAV)) {
         for (const element of [].concat(...document.body.children)) {
           EventHandler.on(element, 'mouseover', noop);
@@ -5159,7 +5159,7 @@
       // If this is a touch-enabled device we add extra
       // empty mouseover listeners to the body's immediate children;
       // only needed because of broken event delegation on iOS
-      // https://www.quirksmode.org/blog/archives/2014/02/mouse_event_bub.html
+      // https://www.quirksmode.org/blog/archives/2016/02/mouse_event_bub.html
       if ('ontouchstart' in document.documentElement) {
         for (const element of [].concat(...document.body.children)) {
           EventHandler.on(element, 'mouseover', noop);

@@ -402,7 +402,7 @@ a.plyr__control:before {
   content: '';
   height: 0;
   position: absolute;
-  right: 14px;
+  right: 16px;
   right: calc(18px / 2 + 10px * 0.7 - 4px / 2);
   right: calc(var(--plyr-control-icon-size, 18px) / 2 + var(--plyr-control-spacing, 10px) * 0.7 - var(--plyr-menu-arrow-size, 4px) / 2);
   top: 100%;
@@ -503,7 +503,7 @@ a.plyr__control:before {
   padding-left: calc(10px * 0.7 * 4);
   padding-left: calc(var(--plyr-control-spacing, 10px) * 0.7 * 4);
   position: relative;
-  width: calc(100% - 14px);
+  width: calc(100% - 16px);
   width: calc(100% - 10px * 0.7 * 2);
   width: calc(100% - var(--plyr-control-spacing, 10px) * 0.7 * 2);
 }

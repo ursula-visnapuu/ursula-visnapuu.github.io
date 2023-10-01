@@ -427,7 +427,7 @@ document.querySelector(".readLessBtn2").addEventListener("click", showLess2);
 // Esialgne seadistus: Peida "Loe vähem" nupp teise "div" jaoks
 document.querySelector(".readLessBtn2").style.display = "none";
 
-// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel teise "div" jaoks
+// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel kolmanda "div" jaoks
 function showMore3() {
     var fullText3 = document.getElementById("fullText3");
     var readMoreBtn3 = document.querySelector(".readMoreBtn3");
@@ -443,7 +443,7 @@ function showMore3() {
     readLessBtn3.style.display = "inline-block";
 }
 
-// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel teise "div" jaoks
+// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel kolmanda "div" jaoks
 function showLess3() {
     var fullText3 = document.getElementById("fullText3");
     var readMoreBtn3 = document.querySelector(".readMoreBtn3");
@@ -459,9 +459,46 @@ function showLess3() {
     readLessBtn3.style.display = "none";
 }
 
-// Lisa sündmuskäsitlejad nuppudele teise "div" jaoks
+// Lisa sündmuskäsitlejad nuppudele kolmanda "div" jaoks
 document.querySelector(".readMoreBtn3").addEventListener("click", showMore3);
 document.querySelector(".readLessBtn3").addEventListener("click", showLess3);
 
-// Esialgne seadistus: Peida "Loe vähem" nupp teise "div" jaoks
+// Esialgne seadistus: Peida "Loe vähem" nupp kolmanda "div" jaoks
 document.querySelector(".readLessBtn3").style.display = "none";
+
+// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel neljanda "div" jaoks
+function showMore4() {
+    var fullText4 = document.getElementById("fullText4");
+    var readMoreBtn4 = document.querySelector(".readMoreBtn4");
+    var readLessBtn4 = document.querySelector(".readLessBtn4");
+
+    // Näita täielikku teksti
+    fullText4.style.display = "block";
+
+    // Peida "Loe rohkem" nupp
+    readMoreBtn4.style.display = "none";
+
+    // Näita "Loe vähem" nuppu
+    readLessBtn4.style.display = "inline-block";
+}
+
+// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel neljanda "div" jaoks
+function showLess4() {
+    var fullText4 = document.getElementById("fullText4");
+    var readMoreBtn4 = document.querySelector(".readMoreBtn4");
+    var readLessBtn4 = document.querySelector(".readLessBtn4");
+
+    // Peida täielik tekst
+    fullText4.style.display = "none";
+
+    // Näita "Loe rohkem" nuppu
+    readMoreBtn4.style.display = "inline-block";
+
+    // Peida "Loe vähem" nupp
+    readLessBtn4.style.display = "none";
+}
+
+// Lisa sündmuskäsitlejad nuppudele neljanda "div" jaoks
+document.querySelector(".readMoreBtn4").addEventListener("click", showMore4);
+document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
+
