@@ -610,7 +610,7 @@ section {
 }
 
 .section-header p {
-    text-align: left;
+    text-align: center;
     padding-bottom: 30px;
     color: #333;
     font-size: 18px;
@@ -1091,7 +1091,7 @@ section {
 }
 
 .text-center {
-    text-align: left !important;
+    text-align: center !important;
 }
 
 #call-to-action .cta-btn {
