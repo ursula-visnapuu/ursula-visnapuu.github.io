@@ -95,7 +95,7 @@ url("./fonts/bootstrap-icons.woff?1fa40e8900654d2863d011707b9fb6f2") format("wof
 .bi-arrow-up-right-square-fill::before { content: "\f162"; }
 .bi-arrow-up-right-square::before { content: "\f163"; }
 .bi-arrow-up-right::before { content: "\f164"; }
-.bi-arrow-up-short::before { content: "\f165"; }
+.bi bi-arrow-up-circle::before { content: "\f165"; }
 .bi-arrow-up-square-fill::before { content: "\f166"; }
 .bi-arrow-up-square::before { content: "\f167"; }
 .bi-arrow-up::before { content: "\f168"; }

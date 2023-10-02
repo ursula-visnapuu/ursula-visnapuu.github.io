@@ -924,6 +924,28 @@ section {
 .readLessBtn4 {
     display: none; /* Alguses peidetud */
 }
+
+/* Stiil "Loe rohkem" nupule */
+.readMoreBtn5,
+.readLessBtn5 {
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 32px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px;
+    color: #fff;
+    background: #899933;
+}
+
+.readLessBtn5 {
+    display: none; /* Alguses peidetud */
+}
+
+
 /* About Us Section
 --------------------------------*/
 #about {

@@ -459,14 +459,14 @@ function showLess3() {
     readLessBtn3.style.display = "none";
 }
 
-// Lisa sündmuskäsitlejad nuppudele kolmanda "div" jaoks
-document.querySelector(".readMoreBtn3").addEventListener("click", showMore3);
-document.querySelector(".readLessBtn3").addEventListener("click", showLess3);
+// Lisa sündmuskäsitlejad nuppudele neljanda "div" jaoks
+document.querySelector(".readMoreBtn4").addEventListener("click", showMore4);
+document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
 
 // Esialgne seadistus: Peida "Loe vähem" nupp kolmanda "div" jaoks
-document.querySelector(".readLessBtn3").style.display = "none";
+document.querySelector(".readLessBtn4").style.display = "none";
 
-// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel neljanda "div" jaoks
+// Funktsioon, mis käivitatakse nupu "Loe rohkem" klõpsamisel kolmanda "div" jaoks
 function showMore4() {
     var fullText4 = document.getElementById("fullText4");
     var readMoreBtn4 = document.querySelector(".readMoreBtn4");
@@ -482,7 +482,7 @@ function showMore4() {
     readLessBtn4.style.display = "inline-block";
 }
 
-// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel neljanda "div" jaoks
+// Funktsioon, mis käivitatakse nupu "Loe vähem" klõpsamisel kolmanda "div" jaoks
 function showLess4() {
     var fullText4 = document.getElementById("fullText4");
     var readMoreBtn4 = document.querySelector(".readMoreBtn4");
@@ -498,7 +498,9 @@ function showLess4() {
     readLessBtn4.style.display = "none";
 }
 
-// Lisa sündmuskäsitlejad nuppudele neljanda "div" jaoks
-document.querySelector(".readMoreBtn4").addEventListener("click", showMore4);
-document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
+// Lisa sündmuskäsitlejad nuppudele kolmanda "div" jaoks
+document.querySelector(".readMoreBtn3").addEventListener("click", showMore3);
+document.querySelector(".readLessBtn3").addEventListener("click", showLess3);
 
+// Esialgne seadistus: Peida "Loe vähem" nupp kolmanda "div" jaoks
+document.querySelector(".readLessBtn3").style.display = "none";
