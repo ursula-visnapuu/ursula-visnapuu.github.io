@@ -392,15 +392,16 @@
                                 ka loomingulisi disainereid.
                             </p>
                             <p id="description"></p>
-                            <button id="readMoreBtn">Loe rohkem</button>
-                            <p id="fullText" style="display: none">
+                            <button id="readMoreBtn" class="readMoreBtn">Loe rohkem</button>
+                            <p id="fullText" class="fullText" style="display: none">
                                 Eesmärk oli mitte ainult kauplemisvõimaluste
                                 laiendamine Eestis ja mujal, vaid ka brändi
                                 kuvandi ja turundustegevuse toetamine. Klient
                                 sai läbi meie toetavate uuringute teada palju
                                 uut ning kasulikku, mida ühe toimiva ja
                                 kaasaegse veebikeskkonna jaoks vaja just ongi.
-                                <br /><button class="readLessBtn">
+                                <br />
+                                <button id="readLessBtn" class="readLessBtn">
                                     Loe vähem
                                 </button>
                             </p>
@@ -413,8 +414,8 @@
                                 ette saavutada, oligi psühholoogiline.
                             </p>
                             <p id="description"></p>
-                            <button id="readMoreBtn2">Loe rohkem</button>
-                            <p id="fullText2" style="display: none">
+                            <button id="readMoreBtn2" class="readMoreBtn2">Loe rohkem</button>
+                            <p id="fullText2" class="fullText2" style="display: none">
                                 Tehnilised oskused suudab ilmselt enamik
                                 õpilastest endale selgeks teha, aga oskused
                                 meeskonnatööks, psühholoogiline valmisolek
@@ -422,7 +423,8 @@
                                 kinni pidamiseks, seda ainult koolis õppides
                                 selgeks ei saa. See tuleb kõik läbi praktika,
                                 mida antud projekt mulle suurepäraselt andis.
-                                <br /><button class="readLessBtn2">
+                                <br />
+                                <button id="readLessBtn2" class="readLessBtn2">
                                     Loe vähem
                                 </button>
                             </p>
@@ -442,8 +444,8 @@
                             </p>
 
                             <p id="description"></p>
-                            <button id="readMoreBtn5">Loe rohkem</button>
-                            <p id="fullText5" style="display: none">
+                            <button id="readMoreBtn3" class="readMoreBtn3">Loe rohkem</button>
+                            <p id="fullText3" class=fullText3" style="display: none">
                                 Erinevate rakenduste kasutamine. Kuna ma Jira
                                 programmis toimetasin kõige rohkem, sain oskuse
                                 seda kasutada enda arvates vähemalt rahuldavalt.
@@ -454,7 +456,7 @@
                                 varem teinud ja see oskus tuleb kindlasti kasuks
                                 igas järgnevas UX-projektis.
                                 <a href="">Sisu vaja luua </a>
-                                <br /><button class="readLessBtn5">
+                                <br /><button id="readLessBtn3" class="readLessBtn3">
                                     Loe vähem
                                 </button>
                             </p>
@@ -522,8 +524,46 @@
         <script>
             document.addEventListener("DOMContentLoaded", function () {
                 const shortText = document.getElementById("shortText");
-                const fullText = document.getElementById("fullText");
-                const readMoreBtn = document.getElementById("readMoreBtn");
+                const fullText = document.getElementByClassName("fullText");
+                const readMoreBtn = document.getElementByClassName("readMoreBtn");
+
+                readMoreBtn.addEventListener("click", function () {
+                    if (fullText.style.display === "none") {
+                        fullText.style.display = "block";
+                        shortText.style.display = "none";
+                        readMoreBtn.innerText = "Loe vähem";
+                    } else {
+                        fullText.style.display = "none";
+                        shortText.style.display = "block";
+                        readMoreBtn.innerText = "Loe rohkem";
+                    }
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const shortText = document.getElementById("shortText2");
+                const fullText = document.getElementByClassName("fullText2");
+                const readMoreBtn = document.getElementByClassName("readMoreBtn2");
+
+                readMoreBtn.addEventListener("click", function () {
+                    if (fullText.style.display === "none") {
+                        fullText.style.display = "block";
+                        shortText.style.display = "none";
+                        readMoreBtn.innerText = "Loe vähem";
+                    } else {
+                        fullText.style.display = "none";
+                        shortText.style.display = "block";
+                        readMoreBtn.innerText = "Loe rohkem";
+                    }
+                });
+            });
+        </script>
+        <script>
+            document.addEventListener("DOMContentLoaded", function () {
+                const shortText = document.getElementById("shortText3");
+                const fullText = document.getElementByClassName("fullText3");
+                const readMoreBtn = document.getElementByClassName("readMoreBtn3");
 
                 readMoreBtn.addEventListener("click", function () {
                     if (fullText.style.display === "none") {
