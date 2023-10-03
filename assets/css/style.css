@@ -48,7 +48,7 @@ h6 {
 
 /*bg - background */
 .bg-grey {
-    background: #e3e3e3;
+    background: #fff;
 }
 .bg-grey-light {
     background: #f4f4f4;
@@ -676,7 +676,7 @@ section {
 # Why Us
 --------------------------------------------------------------*/
 .why-us .content {
-    padding: 60px 100px 0 100px;
+    padding: 41px 36px 0 1px;
 }
 
 .why-us .content h3 {
@@ -703,7 +703,7 @@ section {
 }
 
 .why-us .accordion-list {
-    padding: 0 100px 60px 100px;
+    padding: 0 41px 36px 1px;
 }
 
 .why-us .accordion-list ul {
@@ -717,7 +717,7 @@ section {
 
 .why-us .accordion-list li {
     padding: 20px;
-    background: #fff;
+    background: #89993347;
     border-radius: 4px;
 }
 
