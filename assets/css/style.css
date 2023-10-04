@@ -619,15 +619,15 @@ section {
 /* Section with background
 --------------------------------*/
 .section-bg {
-    background: #f7f7f7;
+    background: #1414136e;
 }
 
 /*--------------------------------------------------------------
-# Breadcrumbs
+# Breadcrumbs #1414136e
 --------------------------------------------------------------*/
 .breadcrumbs {
     padding: 20px 0;
-    background-color: #f7f7f7;
+    background-color: #14141327;
     min-height: 40px;
     margin-top: 80px;
 }
@@ -802,6 +802,10 @@ section {
 --------------------------------*/
 #featured-services {
     background: #000;
+}
+
+#featured-services h3 {
+    color: white;
 }
 
 #featured-services .box {
