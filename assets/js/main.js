@@ -500,7 +500,7 @@ function showLess4() {
 
 // Lisa sündmuskäsitlejad nuppudele neljanda "div" jaoks
 document.querySelector(".readMoreBtn4").addEventListener("click", showMore4);
-document.querySelector(".readLessBtn4").addEventListener("click", showMore4);
+document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
 
 // Esialgne seadistus: Peida "Loe vähem" nupp neljanda "div" jaoks
 document.querySelector(".readLessBtn4").style.display = "none";
