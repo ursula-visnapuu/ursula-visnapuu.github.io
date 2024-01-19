@@ -450,7 +450,7 @@ h6 {
 
 #hero .carousel-item::before {
     content: "";
-    background-color: rgba(87, 80, 80, 0.7);
+    background-color: rgba(69, 61, 61, 0.7);
 }
 
 #hero .carousel-container {
@@ -862,7 +862,7 @@ section {
     letter-spacing: 1px;
     display: inline-block;
     padding: 8px 32px;
-    border-radius: 50px;
+    border-radius: 31px;
     transition: 0.5s;
     margin: 10px;
     color: #fff;
