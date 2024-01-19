@@ -1478,6 +1478,11 @@ section {
     background-color: #899933;
 }
 
+.clients-slider .swiper-wrapper .swiper-slide img {
+    height: auto;
+    width: 172.66px;
+}
+
 /* Testimonials Section
 --------------------------------*/
 #testimonials {
