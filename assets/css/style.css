@@ -66,7 +66,25 @@ h6 {
 }
 
 .bg-info {
+    background-color: #73d686 !important;
+}
+
+.bg-bring {
+    background-color: #e1ab66 !important;
+}
+
+.bg-magic {
     background-color: #ff8484 !important;
+}
+
+.bg-full {
+    background-color: #dedecc !important;
+}
+.bg-drag {
+}
+
+.bg-muscle {
+    background-color: #1f6262 !important;
 }
 
 .bg-warning {
