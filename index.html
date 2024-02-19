@@ -46,6 +46,19 @@
 
         <!-- Template Main CSS File -->
         <link href="assets/css/style.css" rel="stylesheet" />
+
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-rbs5bDEiFiK6p8hd9I5fYXg93/gWUJWIlpFyIhJ2ZqIpu4Ad+ljB2uXU5cAL1bD"
+            crossorigin="anonymous" />
+
+        <!-- Bootstrap JS (Optional: You can include Popper.js if needed) -->
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-oS1Rr2iKe3Xoq1O1TG5VlZ2GOlqG8v9pTOFnqVlHh8fNQ6T8Z+8F5GZnYUzP6T0"
+            crossorigin="anonymous"></script>
     </head>
 
     <style>
@@ -392,7 +405,7 @@
         </section>
         <!-- End Hero Section -->
 
-        <main id="main">
+        <main id="main-frontpage">
             <!-- ======= Featured Services Section Section ======= -->
             <header class="section-header">
                 <h3>asjad, mis on minu jaoks olulised</h3>
@@ -407,7 +420,7 @@
                             </h4>
                             <p class="description">
                                 Nii, nagu ei saa hakata maja ehitama ennem
-                                korraliku projekti olemasolu, ei saa ka
+                                korraliku projekti olemasoluta, ei saa ka
                                 digitoodet looma asuda varem, kui on olemas
                                 korralik lähteülesanne.
                                 <br />
@@ -431,21 +444,22 @@
                         <div class="col-lg-4 box box-bg">
                             <i class="bi bi-2-square-fill"></i>
                             <h4 class="title">
-                                <a href=""><b>Turuuuringud</b></a>
+                                <a href=""><b>UX/UI uuringud</b></a>
                             </h4>
                             <p class="description">
                                 UX/UI disainerina soovin kliendi probleemi ja
                                 sihtgruppe sügavuti mõista. Teadmine aitab luua
-                                parema kasutajakogemuse ja
+                                parema kasutajakogemuse ja tõhusama
                                 <br />
-                                tõhusama toote/teenuse.
+                                toote/teenuse.
                                 <br />
                                 <button class="readMoreBtn2">Loe rohkem</button>
                             </p>
                             <p id="fullText2" style="display: none">
                                 Seetõttu on minu jaoks oluline teha põhjalikke
-                                turu-uuringuid, et pakkuda disainilahendusi, mis
-                                vastavad täpselt minu kliendi vajadustele.
+                                erinevaid uuringuid, et et teada saada, mida
+                                klient täpsemalt soovib ning mida tema kliendid
+                                arvavad või vajavad.
                                 <br /><button class="readLessBtn2">
                                     Loe vähem
                                 </button>
@@ -455,12 +469,14 @@
                         <div class="col-lg-4 box">
                             <i class="bi bi-3-square-fill"></i>
                             <h4 class="title">
-                                <a href=""><b>Klienditeadlikkus</b></a>
+                                <a href=""
+                                    ><b>Kliendi teadlikkuse tõstmine</b></a
+                                >
                             </h4>
                             <p class="description">
                                 UX/UI uuringute käigus on oluline oma klienti
-                                harida. Saades teada, kui oluised on UX
-                                uuringud, saab klient kogu toote või teenuse
+                                harida. Saades teada, kui olulised on need
+                                uuringud on, saab klient kogu toote või teenuse
                                 disainimise protsessist paremini aru.
                                 <br /><button class="readMoreBtn3">
                                     Loe rohkem
@@ -482,123 +498,13 @@
             </section>
             <!-- End Featured Services Section -->
 
-            <!-- ======= About Us Section ======= -->
-            <!--<section id="about">
-                <div class="container" data-aos="fade-up">
-                    <header class="section-header">
-                        <h3>Mida ma siis teen?</h3>
-
-                        <!--<p>
-                            Pakun <b>usaldust</b> ja <b>tagan kindlustunde</b>.
-                            | UX-uuringud | UI-disain | CX-disain
-                            <br />
-                            <br />
-                            Klient saab rahumeeli oma projekti anda minu hoolde,
-                            teades, et see on kindlates kätes. <br /><br />
-                            Lisaks julgen vajadusel olla kriitiline, kuna selles
-                            etapis, kus mina projekti sisenen, on veel võimalik
-                            teha olulisi muudatusi, säästes nii aega kui raha.
-                            Seetõttu saan öelda, et minu fookus on pakkuda
-                            usaldust ja professionaalset toetust.
-                        </p>
-                    </header>
-
-                    <div class="row about-cols">
-                        <div
-                            class="col-md-4"
-                            data-aos="fade-up"
-                            data-aos-delay="100">
-                            <div class="about-col">
-                                <div class="img">
-                                    <img
-                                        src="assets/img/about-mission.jpg"
-                                        alt=""
-                                        class="img-fluid" />
-                                    <div class="icon">
-                                        <i class="bi bi-bar-chart"></i>
-                                    </div>
-                                </div>
-                                <h2 class="title">
-                                    <a href="#">UX uuringud</a>
-                                </h2>
-                                <p>
-                                    Koostan koos kliendiga põhjaliku strateegia,
-                                    mille eesmärk on jõuda kasutajakogemuse
-                                    uuringuteni, tagades maksimaalse kasu nii
-                                    kliendile kui lõpptarbijale.
-
-                                    <!--Selleks
-                                    analüüsin põhjalikult kliendi eesmärke ja
-                                    vajadusi, ning integreerin need
-                                    strateegiasse, et luua nauditav ja
-                                    tulemuslik kasutajakogemus, mis samal ajal
-                                    toetab ärieesmärke ning rikastab
-                                    lõpptarbijate suhet brändiga.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div
-                            class="col-md-4"
-                            data-aos="fade-up"
-                            data-aos-delay="200">
-                            <div class="about-col">
-                                <div class="img">
-                                    <img
-                                        src="assets/img/about-plan.jpg"
-                                        alt=""
-                                        class="img-fluid" />
-                                    <div class="icon">
-                                        <i class="bi bi-brightness-high"></i>
-                                    </div>
-                                </div>
-                                <h2 class="title"><a href="#">UI disain</a></h2>
-                                <p>
-                                    Aitan veebilehtede ja rakenduste
-                                    atraktiivset ning funktsionaalset kujundust
-                                    luua. Kasutades kaasaegseid tehnikaid ja
-                                    oskuseid, suudan saavutada tulemuse, mis
-                                    rahuldab nii tellijat kui lõppkasutajat.
-                                </p>
-                            </div>
-                        </div>
-
-                        <div
-                            class="col-md-4"
-                            data-aos="fade-up"
-                            data-aos-delay="300">
-                            <div class="about-col">
-                                <div class="img">
-                                    <img
-                                        src="assets/img/about-vision.jpg"
-                                        alt=""
-                                        class="img-fluid" />
-                                    <div class="icon">
-                                        <i class="bi bi-calendar4-week"></i>
-                                    </div>
-                                </div>
-                                <h2 class="title">
-                                    <a href="#">CX disain</a>
-                                </h2>
-                                <p>
-                                    Kliendikogemuse disaini protsessis saan
-                                    keskenduda klientide vajaduste ja ootuste
-                                    sügavamale mõistmisele ning luua parema ja
-                                    nauditavama kogemuse toote või teemuse
-                                    kasutamisel.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </section>-->
-            <!-- End About Us Section -->
-
-            <!-- ======= Services Section ======= -->
+            <!-- ======= Minust Section ======= -->
             <section id="services">
                 <div class="container" data-aos="fade-up">
                     <header class="section-header wow fadeInUp">
-                        <h3>Elulugu kuni UX/UI disaineriks õppimiseni</h3>
+                        <h3>
+                            Elulugu ennem ja peale UX/UI disaineriks õppimist
+                        </h3>
                         <!--<p>
                             Olen käinud elu jooksul mitmetes koolides ja saanud
                             suurel hulgal töökogemust. Kõik eelnev on mind
@@ -652,39 +558,347 @@
                                 <i class="bi bi-bar-chart"></i>
                             </div>
                             <h4 class="title">
-                                <a href="">Koolitused</a>
+                                <a href="">Koolitused/Konverentsid</a>
                             </h4>
-                            <p class="description">
-                                <a
-                                    href="https://drive.google.com/file/d/12r05visU1ARZhzHmy2kMGWSkgGpO4cH-/view?usp=sharing"
-                                    >E-kaubanduse UX konverents</a
-                                >
-                                <br />Eesti E-Kaubanduse Koda <br />
-                                10.05.2023 <br />
-                                <br />
-                                <a
-                                    href="https://drive.google.com/file/d/12r05visU1ARZhzHmy2kMGWSkgGpO4cH-/view?usp=sharing"
-                                    >Sissejuhatus programmeerimisse Python
-                                    keeles</a
-                                >
-                                <br />TalTech <br />
-                                2022 aprill-mai | 52 ak tundi <br />
+                            <div class="description">
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModalSDA">
+                                    World Usability Day
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="myModalSDA"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    World Usability Day
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Trinidad Wiseman
+                                                <br />
+                                                aeg: 21-24 november 2023
+                                                <br />
 
-                                <br />
-                                <a
-                                    href="https://app.diplomasafe.com/en-US/diploma/dc3a0928fe5ad840d0490bbecce0584c7fe90d0aa"
-                                    >Software tester</a
-                                >
-                                <br />Software Development Academy <br />2021
-                                juuli-detsember | 159 ak tundi <br /><br /><a
-                                    href="https://drive.google.com/file/d/1ZKXbw4X0hxXEnB9wFOqEXaeiq3tyXPaq/view?usp=sharing"
-                                    >Praktiline turundus</a
-                                >
-                                <br />Marketingi Instituut <br />2018 november -
-                                2019 aprill | 40 ak tundi
-                                <br />
-                            </p>
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/wud-ee-2024-02-17-17_49_35.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModalSDA">
+                                    Tehisaru konverents
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="myModalSDA"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    Tehisintellekt ja andmed
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Tallinna
+                                                Tehnikakõrgkool
+                                                <br />
+                                                aeg: 09.november 2023
+                                                <br />
+
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/tehisarukonverents2023-2024-02-17-17_29_18.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModal">
+                                    E-kaubanduse UX konverents
+                                </button>
+
+                                <div
+                                    class="modal fade"
+                                    id="myModal"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    E-Kaubanduse UX konverents
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Eesti
+                                                E-Kaubanduse Koda <br />
+                                                Toimumise aeg: 2023 10. mai
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/e-kaubanduse-ux-konverents.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModalPython">
+                                    Sissejuhatus programmeerimisse
+                                </button>
+
+                                <div
+                                    class="modal fade"
+                                    id="myModalPython"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    Sissejuhatus
+                                                    programmeerimisse Python
+                                                    keeles
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Taltech <br />
+                                                Toimumise aeg: 2022 aprill-mai |
+                                                52 ak tundi <br />
+
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/Sissejuhatus-programmeerimisse-Python-keeles-TalTech.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModalSDA">
+                                    Software tester
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="myModalSDA"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    Software tester
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Software
+                                                Development Academy Toimumise
+                                                aeg: 2021 juuli-detsember | 159
+                                                ak tundi
+                                                <br />
+
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/Software-tester.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <button
+                                    type="button"
+                                    class="btn btn-open-modal btn-secondary"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#myModalSDA">
+                                    Praktilise turunduse programm
+                                </button>
+                                <div
+                                    class="modal fade"
+                                    id="myModalSDA"
+                                    tabindex="-1"
+                                    aria-labelledby="exampleModalLabel"
+                                    aria-hidden="true">
+                                    <div class="modal-dialog modal-lg">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                                <h5
+                                                    class="modal-title"
+                                                    id="exampleModalLabel">
+                                                    Praktilise turunduse
+                                                    programm
+                                                </h5>
+                                                <button
+                                                    type="button"
+                                                    class="btn-close"
+                                                    data-bs-dismiss="modal"
+                                                    aria-label="Close"></button>
+                                            </div>
+                                            <div class="modal-body">
+                                                Organiseerija: Marketingi
+                                                Instituut
+                                                <br />
+                                                aeg: november 2018 - aprill 2019
+                                                | 40 ak tundi
+                                                <br />
+
+                                                <!-- Use an iframe to embed the PDF viewer -->
+                                                <iframe
+                                                    src="assets/img/Koolitused/Praktilise-turunduse-programm_2019.pdf"
+                                                    width="100%"
+                                                    height="500px"
+                                                    style="
+                                                        border: none;
+                                                    "></iframe>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button
+                                                    type="button"
+                                                    class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Close
+                                                </button>
+                                                <!-- You can add more buttons or controls here if needed -->
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
+
                         <header class="section-header">
                             <h3></h3>
                         </header>
