@@ -595,9 +595,25 @@ section {
 /* Sections Header
 --------------------------------*/
 .section-header {
+    margin-top: 200px;
+    
+}
+
+.section-header-next {
     margin-top: 15px;
     margin-bottom: -9px;
 }
+
+.section-header-next h3 {
+    font-size: 32px;
+    color: #111;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 15px;
+}
+
 
 .section-header h3 {
     font-size: 32px;
@@ -873,6 +889,8 @@ section {
 }
 
 /* Stiil "Loe rohkem" nupule */
+
+
 .readMoreBtn,
 .readLessBtn {
     font-family: "Lato", sans-serif;
@@ -884,8 +902,10 @@ section {
     border-radius: 8px;
     transition: 0.5s;
     margin: -2px;
+    margin-top: 20px;
     color: #fff;
     background: #998100;
+    float: left;
 }
 
 .readLessBtn {
