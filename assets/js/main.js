@@ -100,7 +100,7 @@
 
     /**
      * Hero carousel indicators
-     */
+     
     let heroCarouselIndicators = select("#hero-carousel-indicators");
     let heroCarouselItems = select("#heroCarousel .carousel-item", true);
 
@@ -115,7 +115,7 @@
                   index +
                   "'></li>");
     });
-
+*/
     /**
      * Back to top button
      */
@@ -505,7 +505,7 @@ document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
 // Esialgne seadistus: Peida "Loe vähem" nupp neljanda "div" jaoks
 document.querySelector(".readLessBtn4").style.display = "none";
 
-document.addEventListener("DOMContentLoaded", function () {
+/**document.addEventListener("DOMContentLoaded", function () {
     var links = document.querySelectorAll(
         'a[data-lightbox="portfolioGallery"]'
     );
@@ -522,4 +522,6 @@ function showDescription(description) {
     var descriptionDiv = document.getElementById("imageDescription");
     descriptionDiv.innerHTML = description;
     descriptionDiv.style.display = "block";
-}
+}*/
+
+
