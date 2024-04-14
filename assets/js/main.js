@@ -504,24 +504,3 @@ document.querySelector(".readLessBtn4").addEventListener("click", showLess4);
 
 // Esialgne seadistus: Peida "Loe vähem" nupp neljanda "div" jaoks
 document.querySelector(".readLessBtn4").style.display = "none";
-
-/**document.addEventListener("DOMContentLoaded", function () {
-    var links = document.querySelectorAll(
-        'a[data-lightbox="portfolioGallery"]'
-    );
-    links.forEach(function (link) {
-        link.addEventListener("click", function (event) {
-            event.preventDefault();
-            var description = this.getAttribute("data-title");
-            showDescription(description);
-        });
-    });
-});
-
-function showDescription(description) {
-    var descriptionDiv = document.getElementById("imageDescription");
-    descriptionDiv.innerHTML = description;
-    descriptionDiv.style.display = "block";
-}*/
-
-
